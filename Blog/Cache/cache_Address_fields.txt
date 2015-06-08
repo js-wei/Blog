@@ -1,0 +1,4 @@
+﻿Address的表字段缓存文件
+本文件由系统创建于：2015-2-7 16:32
+保存的是表字段，文件存是为了减少数据查询开销
+id,mid,name,province,city,county,address,zipcode,mobile,phone,isdefault,contact

@@ -1,0 +1,57 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family:'Microsoft YaHei';
+    font-size:12px;
+}
+
+.show-page {
+    width: auto;
+    height: 15px;
+}
+
+    .show-page .page-info {
+        display: block;
+        padding: 5px;
+        float: left;
+        line-height: 30px;
+    }
+
+    .show-page .goto {
+        float: left;
+        height: 30px;
+        margin-left: 5px;
+        line-height: 30px;
+    }
+
+.pagelist {
+    float: left;
+    list-style: none;
+    line-height: 30px;
+}
+
+    .pagelist li {
+        float: left;
+        list-style: none;
+        line-height: 30px;
+    }
+
+        .pagelist li a {
+            line-height: 30px;
+            text-decoration: none;
+            padding: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background: #808080;
+            color: #ffffff;
+            margin-left: 5px;
+        }
+
+            .pagelist li a.curent {
+                background: #141212;
+                color: #ffffff;
+            }
+
+div.clear {
+    clear: both;
+}

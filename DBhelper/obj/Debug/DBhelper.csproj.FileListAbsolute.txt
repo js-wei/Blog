@@ -1,0 +1,13 @@
+d:\我的文档\visual studio 2013\Projects\Blog\DBhelper\bin\Debug\DBhelper.dll
+d:\我的文档\visual studio 2013\Projects\Blog\DBhelper\bin\Debug\DBhelper.pdb
+d:\我的文档\visual studio 2013\Projects\Blog\DBhelper\obj\Debug\DBhelper.dll
+d:\我的文档\visual studio 2013\Projects\Blog\DBhelper\obj\Debug\DBhelper.pdb
+G:\Asp.Net\Blog\DBhelper\bin\Debug\DBhelper.dll
+G:\Asp.Net\Blog\DBhelper\bin\Debug\DBhelper.pdb
+G:\Asp.Net\Blog\DBhelper\obj\Debug\DBhelper.dll
+G:\Asp.Net\Blog\DBhelper\obj\Debug\DBhelper.pdb
+G:\Asp.Net\Blog\DBhelper\obj\Debug\DBhelper.csprojResolveAssemblyReference.cache
+F:\DoNet\Blog\DBhelper\bin\Debug\DBhelper.dll
+F:\DoNet\Blog\DBhelper\bin\Debug\DBhelper.pdb
+F:\DoNet\Blog\DBhelper\obj\Debug\DBhelper.dll
+F:\DoNet\Blog\DBhelper\obj\Debug\DBhelper.pdb

@@ -1,0 +1,25 @@
+广告
+<myflAd id="1"  />
+服务
+<service limit="5" where="status eq 0 " custom="" order="" /> 
+文件
+<table>
+	<tr>
+		<td algin="center" width="15%">名称</td>
+		<td algin="center" width="15%">原文件名</td>
+		<td algin="center" width="20%">现文件名</td>
+		<td algin="center" width="20%">保存路径</td>
+		<td algin="center" width="5%">文件大小(MB)</td>
+	</tr>
+	<file limit="4" order="id desc" where="id gt 1" empty="请先上传文件">
+		<volist name="file" id="vo">
+			<tr>
+				<td algin="center" >{$vo.title}</td>
+				<td algin="center" >{$vo.name}</td>
+				<td>{$vo.rename}</td>
+				<td>{$vo.path}</td>
+				<td>{$vo.size}</td>
+			</tr>
+		</volist>
+	</file>
+</table>

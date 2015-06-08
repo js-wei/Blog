@@ -1,0 +1,34 @@
+d:\我的文档\visual studio 2013\Projects\Blog\Blog\bin\Blog.dll.config
+d:\我的文档\visual studio 2013\Projects\Blog\Blog\bin\Blog.dll
+d:\我的文档\visual studio 2013\Projects\Blog\Blog\bin\Blog.pdb
+d:\我的文档\visual studio 2013\Projects\Blog\Blog\bin\DBhelper.dll
+d:\我的文档\visual studio 2013\Projects\Blog\Blog\bin\Tool.dll
+d:\我的文档\visual studio 2013\Projects\Blog\Blog\bin\DBhelper.pdb
+d:\我的文档\visual studio 2013\Projects\Blog\Blog\bin\Tool.pdb
+d:\我的文档\visual studio 2013\Projects\Blog\Blog\obj\Debug\Blog.csprojResolveAssemblyReference.cache
+d:\我的文档\visual studio 2013\Projects\Blog\Blog\obj\Debug\Blog.dll
+d:\我的文档\visual studio 2013\Projects\Blog\Blog\obj\Debug\Blog.pdb
+G:\Asp.Net\Blog\Blog\bin\Blog.dll.config
+G:\Asp.Net\Blog\Blog\bin\Blog.dll
+G:\Asp.Net\Blog\Blog\bin\Blog.pdb
+G:\Asp.Net\Blog\Blog\bin\DBhelper.dll
+G:\Asp.Net\Blog\Blog\bin\Tool.dll
+G:\Asp.Net\Blog\Blog\bin\Tool.pdb
+G:\Asp.Net\Blog\Blog\obj\Debug\Blog.csprojResolveAssemblyReference.cache
+G:\Asp.Net\Blog\Blog\obj\Debug\Blog.dll
+G:\Asp.Net\Blog\Blog\obj\Debug\Blog.pdb
+G:\Asp.Net\Blog\Blog\bin\Newtonsoft.Json.dll
+G:\Asp.Net\Blog\Blog\bin\DBhelper.pdb
+F:\DoNet\Blog\Blog\bin\Blog.dll.config
+F:\DoNet\Blog\Blog\bin\Blog.dll
+F:\DoNet\Blog\Blog\bin\Blog.pdb
+F:\DoNet\Blog\Blog\bin\DBhelper.dll
+F:\DoNet\Blog\Blog\bin\Tool.dll
+F:\DoNet\Blog\Blog\bin\ThoughtWorks.QRCode.dll
+F:\DoNet\Blog\Blog\bin\Newtonsoft.Json.dll
+F:\DoNet\Blog\Blog\bin\DBhelper.pdb
+F:\DoNet\Blog\Blog\bin\Tool.pdb
+F:\DoNet\Blog\Blog\obj\Debug\Blog.csprojResolveAssemblyReference.cache
+F:\DoNet\Blog\Blog\obj\Debug\Blog.dll
+F:\DoNet\Blog\Blog\obj\Debug\Blog.pdb
+G:\Asp.Net\Blog\Blog\bin\ThoughtWorks.QRCode.dll

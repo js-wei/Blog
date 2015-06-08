@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<title>Pager Demo</title>
+
+		<!-- Modernizer -->
+		<script src="http://formstone.it/js/modernizr.js"></script>
+
+		<!-- Demo Resources -->
+		<link href="http://formstone.it/css/demo.css" rel="stylesheet" type="text/css" media="all">
+		<script src="http://formstone.it/js/demo.js"></script>
+
+		<!--[if IE 8]>
+        	<script>var IE8 = true;</script>
+        	<script src="http://formstone.it/js/site.ie8.js"></script>
+			<link rel="stylesheet" href="http://formstone.it/css/demo.ie8.css">
+		<![endif]-->
+		<!--[if IE 9]>
+        	<script>var IE9 = true;</script>
+        	<script src="http://formstone.it/js/site.ie9.js"></script>
+		<![endif]-->
+
+		<link href="../jquery.fs.pager.css" rel="stylesheet" type="text/css" media="all">
+		<script src="../jquery.fs.pager.js"></script>
+
+		<!--[DEMO:START-RESOURCES]-->
+
+		<style>
+			.demo .pager .pager-pages a { color: #222; }
+			.demo .pager .pager-pages a.active { color: #999; }
+		</style>
+
+		<script>
+			$(document).ready(function() {
+				$(".demo .pagination.events").on("update.pager", function(e, index) {
+					var html = '';
+					html += '<p><span class="label">Page Index: </span>';
+					html += '<span class="value">' + index + '</p>';
+
+					$(".demo .output").prepend(html);
+				});
+
+				$(".demo .pagination").pager();
+
+				$(window).one("pronto.load", function() {
+					$(".demo .pagination.events").off(".pager");
+					$(".demo .pagination").pager("destroy");
+				});
+			});
+		</script>
+
+		<!--[DEMO:END-RESOURCES]-->
+
+	</head>
+	<body class="gridlock demo">
+		<header id="header">
+			<div class="row">
+				<div class="all-full">
+					<a href="http://formstone.it/" class="branding">Formstone</a>
+				</div>
+			</div>
+		</header>
+		<article class="row page">
+			<div class="mobile-full tablet-full desktop-8 desktop-push-2">
+				<header class="header">
+					<h1>Pager Demo</h1>
+					<br>
+					<a href="http://formstone.it/pager/" class="button">View Documentation</a>
+				</header>
+
+				<!--[DEMO:START-CONTENT]-->
+
+				<!-- BASIC -->
+				<h2>Basic</h2>
+				<p>The most basic method is simply applying the Pager plugin:</p>
+
+				<pre class="example"><code class="language-javascript">$(".target").pager();</code></pre>
+				<pre class="example"><code class="language-markup">&lt;div class="pagination"&gt;
+	&lt;a href="#1"&gt;1&lt;/a&gt;
+	&lt;a href="#2"&gt;2&lt;/a&gt;
+	&lt;a href="#3"&gt;3&lt;/a&gt;
+	...
+&lt;/div&gt;</code></pre>
+
+				<h5>Demo</h5>
+				<div class="pagination clear_fix">
+					<a href="#1">1</a>
+					<a href="#2">2</a>
+					<a href="#3">3</a>
+					<a href="#4">4</a>
+					<a href="#5">5</a>
+					<a href="#6">6</a>
+					<a href="#7">7</a>
+					<a href="#8">8</a>
+					<a href="#9">9</a>
+					<a href="#10">10</a>
+				</div>
+
+				<br>
+
+				<!-- Current -->
+				<h2>Current Page</h2>
+				<p>Pager will automatically detect the current page based on the <code>active</code> class.</p>
+
+				<pre class="example"><code class="language-markup">&lt;div class="pagination"&gt;
+	&lt;a href="#1"&gt;1&lt;/a&gt;
+	&lt;a href="#2" class="active"&gt;2&lt;/a&gt;
+	&lt;a href="#3"&gt;3&lt;/a&gt;
+&lt;/div&gt;</code></pre>
+
+				<h5>Demo</h5>
+				<div class="pagination clear_fix">
+					<a href="#1">1</a>
+					<a href="#2" class="active">2</a>
+					<a href="#3">3</a>
+				</div>
+
+				<br>
+
+				<!-- Event -->
+				<h2>Events</h2>
+				<p>Pager will automatically detect the current page based on the <code>active</code> class.</p>
+
+				<pre class="example"><code class="language-javascript">$(".target").pager();
+
+$(".target").on("update.pager", function (e, index) {
+	// Current page updated
+});</code></pre>
+
+				<h5>Demo</h5>
+				<div class="pagination events clear_fix">
+					<a href="#1">1</a>
+					<a href="#2">2</a>
+					<a href="#3">3</a>
+					<a href="#4">4</a>
+					<a href="#5">5</a>
+					<a href="#6">6</a>
+					<a href="#7">7</a>
+					<a href="#8">8</a>
+					<a href="#9">9</a>
+					<a href="#10">10</a>
+				</div>
+				<div class="output">
+
+				</div>
+
+				<br>
+
+				<!--[DEMO:END-CONTENT]-->
+
+			</div>
+		</article>
+
+		<footer id="footer" class="row">
+			<div class="all-full copyright">
+				Made with &hearts; in Hampden
+			</div>
+		</footer>
+	</body>
+</html>

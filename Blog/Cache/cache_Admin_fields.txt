@@ -1,0 +1,4 @@
+﻿Admin的表字段缓存文件
+本文件由系统创建于：2015-2-7 17:9
+保存的是表字段，文件存是为了减少数据查询开销
+id,username,password,tel,email,province,city,county,address,login_time,login_ip,remember,status

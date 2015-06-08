@@ -1,0 +1,4 @@
+﻿Member的表字段缓存文件
+本文件由系统创建于：2015-2-7 16:32
+保存的是表字段，文件存是为了减少数据查询开销
+id,username,password,secret,nickname,header,sex,relname,idCards,level,isVip,vipLevel,vipScore,tel,email,qq,birthday,issafe,safetype,balance,province,city,county,address,loginTime,loginIp,status

@@ -1,0 +1,4 @@
+﻿Access的表字段缓存文件
+本文件由系统创建于：2015-2-9 13:42
+保存的是表字段，文件存是为了减少数据查询开销
+id,aid,mid,sort,status,create_time,update_time

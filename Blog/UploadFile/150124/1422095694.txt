@@ -1,0 +1,4 @@
+payMobileToVipHandler  手机充值VIP有错
+payUnsubscriptVipHandler 手机退订VIP有错
+publishadHandler	请求发布广告有错
+getADList		获取广告有错 
